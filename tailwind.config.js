@@ -9,7 +9,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        apercu: ['var(--font-apercu)', 'sans-serif'],
+        canela: ['var(--font-canela)', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
