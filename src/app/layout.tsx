@@ -38,6 +38,11 @@ const canela = localFont({
       style: 'normal',
     },
     {
+      path: '../../public/fonts/CanelaText-Light-Trial.otf',
+      weight: '300',
+      style: 'normal',
+    },
+    {
       path: '../../public/fonts/CanelaText-Regular-Trial.otf',
       weight: '400',
       style: 'normal',

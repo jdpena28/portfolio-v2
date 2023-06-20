@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  @apply text-primary;
+}
+
 h1 {
   @apply heading text-7xl;
 }
@@ -21,10 +25,13 @@ h6 {
   @apply subheading text-2xl;
 }
 nav {
-  @apply sticky top-0 z-50 flex items-center justify-between p-8;
+  @apply sticky top-0 z-50 flex items-center justify-between bg-highlight p-8;
 }
 section {
-  @apply min-h-screen w-full;
+  @apply relative min-h-screen w-full;
+}
+p {
+  @apply font-canela font-light;
 }
 
 .heading {
@@ -32,4 +39,19 @@ section {
 }
 .subheading {
   @apply font-canela uppercase;
+}
+
+.gradient-animate {
+  @apply bg-gradient-to-r from-red-400 via-gray-300 to-blue-500 bg-clip-text text-transparent;
+  background-size: 500% auto;
+  animation: gradient 8s ease-in-out infinite alternate;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }
