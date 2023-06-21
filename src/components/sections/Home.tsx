@@ -72,8 +72,8 @@ const Home = () => {
       </div>
       {/* Backdrop */}
       <div className="absolute -left-1/3 bottom-0 top-0 my-auto h-max">
-        <div className="h-96 w-96 rounded-full bg-[#2548FF66]/40 blur-md" />
-        <div className="-mt-48 h-96 w-96 rounded-full bg-[#FF2E0066]/40 blur-md" />
+        <div className="float-animate h-96 w-96 rounded-full border-4 border-blue-500 bg-[#2548FF66]/50 blur-md" />
+        <div className="float-animate2 -mt-48 h-96 w-96 rounded-full border-4 border-red-500 bg-[#FF2E0066]/50 blur-md" />
         <div />
       </div>
     </section>

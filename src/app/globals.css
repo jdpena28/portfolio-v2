@@ -42,9 +42,15 @@ p {
 }
 
 .gradient-animate {
-  @apply bg-gradient-to-r from-red-400 via-gray-300 to-blue-500 bg-clip-text text-transparent;
-  background-size: 500% auto;
-  animation: gradient 8s ease-in-out infinite alternate;
+  @apply animate-[gradient_8s_ease-in-out_infinite_alternate] bg-gradient-to-r from-red-400 via-gray-300 to-blue-500 bg-[500%_auto] bg-clip-text text-transparent;
+}
+
+.float-animate {
+  @apply translate-y-0 animate-[float_6s_ease-in-out_infinite] overflow-hidden shadow-md;
+}
+
+.float-animate2 {
+  @apply translate-y-0 animate-[float2_4s_ease-in-out_infinite] overflow-hidden shadow-md;
 }
 
 @keyframes gradient {
@@ -53,5 +59,35 @@ p {
   }
   100% {
     background-position: 100% 50%;
+  }
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px) translateX(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px) translateX(20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px) translateX(0px);
+  }
+}
+
+@keyframes float2 {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px) translateX(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(40px) translateX(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px) translateX(0px);
   }
 }
