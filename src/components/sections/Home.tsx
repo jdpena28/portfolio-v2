@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Home = () => {
   return (
     <section id="home">
-      <div className="flex h-screen w-full items-center justify-around">
+      <div className="flex w-full items-center justify-around">
         <div className="space-y-5">
           <h2 className="font-canela text-lg font-medium">
             A Full Stack Developer

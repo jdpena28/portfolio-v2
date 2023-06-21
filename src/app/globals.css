@@ -28,7 +28,7 @@ nav {
   @apply sticky top-0 z-50 flex items-center justify-between bg-highlight p-8;
 }
 section {
-  @apply relative min-h-screen w-full;
+  @apply relative flex min-h-screen w-full items-center;
 }
 p {
   @apply font-canela font-light;
