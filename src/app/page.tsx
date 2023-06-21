@@ -1,3 +1,5 @@
+'use client';
+
 import Home from '@/components/sections/Home';
 
 export default function Index() {
