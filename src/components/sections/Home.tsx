@@ -54,7 +54,7 @@ const Home = () => {
               <p className="text-right">
                 Want to see my projects?{' '}
                 <svg
-                  className="ml-3 inline-block"
+                  className="bounce-left-animate ml-6 inline-block"
                   width="44"
                   height="8"
                   viewBox="0 0 44 8"

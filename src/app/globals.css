@@ -53,6 +53,10 @@ p {
   @apply translate-y-0 animate-[float2_4s_ease-in-out_infinite] overflow-hidden shadow-md;
 }
 
+.bounce-left-animate {
+  @apply animate-[bounce-left_4s_ease-in-out_infinite]  drop-shadow-md;
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -89,5 +93,17 @@ p {
   100% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
     transform: translatey(0px) translateX(0px);
+  }
+}
+
+@keyframes bounce-left {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0px);
   }
 }
