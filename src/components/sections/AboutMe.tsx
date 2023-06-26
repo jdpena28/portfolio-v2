@@ -1,3 +1,5 @@
+import { Tooltip } from 'react-tooltip';
+
 import { TECH_STACKS } from '@/constant';
 
 const AboutMe = () => {
@@ -31,7 +33,15 @@ const AboutMe = () => {
           {
             // render svg from props
             TECH_STACKS.map((i) => {
-              return <div key={i.name}>{i.src}</div>;
+              return (
+                <div
+                  data-tooltip-id="tooltip-stacks"
+                  data-tooltip-content={i.name}
+                  data-tooltip-place="top"
+                  key={i.name}>
+                  {i.src}
+                </div>
+              );
             })
           }
         </div>
@@ -42,6 +52,7 @@ const AboutMe = () => {
         <div className="float-animate2 -mt-48 h-[400px] w-[400px] rounded-full border-4 border-red-500 bg-[#FF2E0066]/50 blur-md" />
         <div />
       </div>
+      <Tooltip id="tooltip-stacks" />
     </section>
   );
 };
