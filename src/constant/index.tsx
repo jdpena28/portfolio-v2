@@ -266,3 +266,22 @@ export const TECH_STACKS = [
     ),
   },
 ];
+
+export const PROJECTS = [
+  {
+    name: 'React Projects',
+    slug: 'react-projects',
+  },
+  {
+    name: 'Test Test',
+    slug: 'test-test',
+  },
+  {
+    name: 'To-do list',
+    slug: 'to-do-list',
+  },
+  {
+    name: 'Tic Tac Toe',
+    slug: 'tic-tac-toe',
+  },
+];
