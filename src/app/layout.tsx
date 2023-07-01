@@ -63,7 +63,13 @@ const canela = localFont({
   variable: '--font-canela',
 });
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({
+  children,
+  modal,
+}: {
+  children: ReactNode;
+  modal: ReactNode;
+}) {
   return (
     <html
       lang="en"
@@ -71,6 +77,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body>
         <NavBar />
         {children}
+        {modal}
       </body>
     </html>
   );

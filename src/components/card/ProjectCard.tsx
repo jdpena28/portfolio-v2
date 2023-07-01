@@ -5,18 +5,14 @@ import Link from 'next/link';
 interface ProjectCardProps {
   slug: string;
   name: string;
+  thumbnail: string;
 }
 
-const ProjectCard: FC<ProjectCardProps> = ({ slug, name }) => {
+const ProjectCard: FC<ProjectCardProps> = ({ slug, name, thumbnail }) => {
   return (
     <Link href={`/projects/${slug}`}>
       <div className="rounded-sm bg-white p-5 shadow-lg shadow-white drop-shadow-2xl">
-        <Image
-          src="/sample-project-thumbnail.png"
-          alt="Project Thumbnail"
-          width={354}
-          height={439}
-        />
+        <Image src={thumbnail} alt={name} width={354} height={439} />
         <div className="flex justify-between py-5">
           <h4 className="max-w-xs text-lg">{name}</h4>
           <svg

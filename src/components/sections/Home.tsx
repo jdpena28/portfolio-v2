@@ -50,7 +50,7 @@ const Home = () => {
             height={513}
           />
           <div>
-            <Link href="#contact">
+            <Link href="#projects">
               <p className="text-right">
                 Want to see my projects?{' '}
                 <svg

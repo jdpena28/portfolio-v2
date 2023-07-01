@@ -269,19 +269,43 @@ export const TECH_STACKS = [
 
 export const PROJECTS = [
   {
-    name: 'React Projects',
-    slug: 'react-projects',
+    name: 'I-Habilin',
+    slug: 'i-habilin',
+    thumbnail: '/sample-project-thumbnail.png',
+    landscapeThumbnail: '/landscape-thumbnail.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
   },
   {
-    name: 'Test Test',
-    slug: 'test-test',
+    name: 'Space Tourism',
+    slug: 'space-tourism',
+    thumbnail: '/sample-project-thumbnail.png',
+    landscapeThumbnail: '/landscape-thumbnail.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
   },
   {
-    name: 'To-do list',
-    slug: 'to-do-list',
+    name: 'Bataan Travel Pass',
+    slug: 'bataan-travel-pass',
+    thumbnail: '/sample-project-thumbnail.png',
+    landscapeThumbnail: '/landscape-thumbnail.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
   },
   {
-    name: 'Tic Tac Toe',
-    slug: 'tic-tac-toe',
+    name: 'COVID-19 Info Board',
+    slug: 'covid-info-board',
+    thumbnail: '/sample-project-thumbnail.png',
+    landscapeThumbnail: '/landscape-thumbnail.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
+  },
+  {
+    name: 'Sticky Note',
+    slug: 'sticky-note',
+    thumbnail: '/sample-project-thumbnail.png',
+    landscapeThumbnail: '/landscape-thumbnail.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
   },
 ];

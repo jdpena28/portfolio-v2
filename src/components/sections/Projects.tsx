@@ -13,6 +13,7 @@ const Projects = () => {
                 key={project.slug}
                 name={project.name}
                 slug={project.slug}
+                thumbnail={project.thumbnail}
               />
             );
           })}
