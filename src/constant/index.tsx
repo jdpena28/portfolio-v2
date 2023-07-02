@@ -271,6 +271,14 @@ export const PROJECTS = [
   {
     name: 'I-Habilin',
     slug: 'i-habilin',
+    techStacks: [
+      'Next.js',
+      'TailwindCSS',
+      'Typescript',
+      'TRPC',
+      'Prisma',
+      'Planetscale',
+    ],
     thumbnail: '/sample-project-thumbnail.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
@@ -279,6 +287,7 @@ export const PROJECTS = [
   {
     name: 'Space Tourism',
     slug: 'space-tourism',
+    techStacks: ['Next.js', 'TailwindCSS', 'Typescript'],
     thumbnail: '/sample-project-thumbnail.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
@@ -287,6 +296,7 @@ export const PROJECTS = [
   {
     name: 'Bataan Travel Pass',
     slug: 'bataan-travel-pass',
+    techStacks: ['Nuxt', 'Vue.js', 'TailwindCSS', 'Typescript', 'Firebase'],
     thumbnail: '/sample-project-thumbnail.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
@@ -295,6 +305,7 @@ export const PROJECTS = [
   {
     name: 'COVID-19 Info Board',
     slug: 'covid-info-board',
+    techStacks: ['React.js', 'Vite', 'TailwindCSS', 'Typescript'],
     thumbnail: '/sample-project-thumbnail.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
@@ -303,6 +314,7 @@ export const PROJECTS = [
   {
     name: 'Sticky Note',
     slug: 'sticky-note',
+    techStacks: ['React.js', 'Vite', 'TailwindCSS', 'Typescript'],
     thumbnail: '/sample-project-thumbnail.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
