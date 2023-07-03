@@ -4,6 +4,7 @@ import localFont from 'next/font/local';
 import { Metadata } from 'next';
 
 import NavBar from '@/components/NavBar';
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Portfolio | John Henrich Dela Pena',
@@ -78,6 +79,7 @@ export default function RootLayout({
         <NavBar />
         {children}
         {modal}
+        <Footer />
       </body>
     </html>
   );
