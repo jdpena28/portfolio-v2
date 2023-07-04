@@ -18,7 +18,11 @@ const Footer = () => {
       </div>
       <div className="flex flex-col gap-3">
         {SOCIALS.map((i) => {
-          return <Link href={i.url}>{i.icon}</Link>;
+          return (
+            <Link key={i.url} href={i.url}>
+              {i.icon}
+            </Link>
+          );
         })}
       </div>
       <div className="space-y-3 [&>*]:text-highlight">
