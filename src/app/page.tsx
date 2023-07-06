@@ -1,5 +1,3 @@
-'use client';
-
 import AboutMe from '@/components/sections/AboutMe';
 import Home from '@/components/sections/Home';
 import Projects from '@/components/sections/Projects';
