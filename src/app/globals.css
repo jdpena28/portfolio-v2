@@ -33,6 +33,10 @@ section {
 p {
   @apply font-canela font-light;
 }
+input,
+textarea {
+  @apply appearance-none px-1 font-canela font-light focus:outline-none focus:ring-primary;
+}
 
 .heading {
   @apply font-apercu uppercase tracking-wider;
