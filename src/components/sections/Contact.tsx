@@ -1,7 +1,24 @@
+'use client';
+
 import Link from 'next/link';
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { ContactSchema, ContactSchemaType } from '@/schema';
 import { Input } from '../form';
 
 const Contact = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<ContactSchemaType>({
+    resolver: zodResolver(ContactSchema),
+  });
+
+  const submitInquiries = (data: ContactSchemaType) => {
+    alert(JSON.stringify(data));
+  };
+
   return (
     <section id="contact">
       <div className="flex flex-1">
@@ -26,10 +43,32 @@ const Contact = () => {
             </Link>
           </div>
         </div>
-        <form className="flex w-full flex-[.6] flex-col justify-between gap-y-4">
-          <Input id="email" type="email" label="Email" isRequired />
-          <Input id="name" type="text" label="Name" />
-          <Input id="message" type="textarea" label="Message" isRequired />
+        <form
+          className="flex w-full flex-[.6] flex-col justify-between gap-y-4"
+          onSubmit={handleSubmit(submitInquiries)}>
+          <Input
+            id="email"
+            type="email"
+            label="Email"
+            isRequired
+            register={register}
+            errors={errors}
+          />
+          <Input
+            id="name"
+            type="text"
+            label="Name"
+            register={register}
+            errors={errors}
+          />
+          <Input
+            id="message"
+            type="textarea"
+            label="Message"
+            isRequired
+            register={register}
+            errors={errors}
+          />
           <button
             type="submit"
             className="w-max rounded-full border-2 border-primary px-12 py-2 font-apercu font-medium uppercase">
