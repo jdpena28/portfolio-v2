@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  @apply text-primary;
+}
+
 h1 {
   @apply heading text-7xl;
 }
@@ -21,10 +25,17 @@ h6 {
   @apply subheading text-2xl;
 }
 nav {
-  @apply sticky top-0 z-50 flex items-center justify-between p-8;
+  @apply sticky top-0 z-50 flex items-center justify-between bg-highlight p-8;
 }
 section {
-  @apply min-h-screen w-full;
+  @apply relative flex min-h-screen w-full items-center;
+}
+p {
+  @apply font-canela font-light;
+}
+input,
+textarea {
+  @apply appearance-none px-1 font-canela font-light focus:outline-none focus:ring-primary;
 }
 
 .heading {
@@ -32,4 +43,71 @@ section {
 }
 .subheading {
   @apply font-canela uppercase;
+}
+
+.gradient-animate {
+  @apply animate-[gradient_8s_ease-in-out_infinite_alternate] bg-gradient-to-r from-red-400 via-gray-300 to-blue-500 bg-[500%_auto] bg-clip-text text-transparent;
+}
+
+.float-animate {
+  @apply translate-y-0 animate-[float_6s_ease-in-out_infinite] overflow-hidden shadow-md;
+}
+
+.float-animate2 {
+  @apply translate-y-0 animate-[float2_4s_ease-in-out_infinite] overflow-hidden shadow-md;
+}
+
+.bounce-left-animate {
+  @apply animate-[bounce-left_4s_ease-in-out_infinite]  drop-shadow-md;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px) translateX(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px) translateX(20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px) translateX(0px);
+  }
+}
+
+@keyframes float2 {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px) translateX(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(40px) translateX(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px) translateX(0px);
+  }
+}
+
+@keyframes bounce-left {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }

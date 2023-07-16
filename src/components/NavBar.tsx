@@ -30,7 +30,7 @@ const NavLinks: FC<NavLinksType> = ({ name, url, description }) => {
     <Link href={url}>
       <div className="relative w-full max-w-[150px] border-t-2 border-black">
         <p className="font-apercu font-bold">{name}</p>
-        <p className="font-canela font-thin">{description}</p>
+        <p>{description}</p>
         <svg
           className="absolute right-0 top-1 h-4 w-4"
           viewBox="0 0 17 17"
