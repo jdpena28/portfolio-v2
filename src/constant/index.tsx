@@ -26,8 +26,7 @@ export const TECH_STACKS = [
     name: 'React',
     src: (
       <svg
-        width="106"
-        height="75"
+        className="h-[45px] w-[63.6px] lg:h-[75px] lg:w-[106px]"
         viewBox="0 0 106 75"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -46,8 +45,7 @@ export const TECH_STACKS = [
     name: 'NextJS',
     src: (
       <svg
-        width="125"
-        height="75"
+        className="h-[45px] w-[75px] lg:h-[75px] lg:w-[125px]"
         viewBox="0 0 125 75"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -69,8 +67,7 @@ export const TECH_STACKS = [
     name: 'Vue.js',
     src: (
       <svg
-        width="87"
-        height="75"
+        className="h-[45px] w-[52.2px] lg:h-[75px] lg:w-[87px]"
         viewBox="0 0 87 75"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -96,8 +93,7 @@ export const TECH_STACKS = [
     name: 'NuxtJS',
     src: (
       <svg
-        width="75"
-        height="75"
+        className="h-[45px] w-[45px] lg:h-[75px] lg:w-[75px]"
         viewBox="0 0 75 75"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -120,8 +116,7 @@ export const TECH_STACKS = [
     name: 'TailwindCSS',
     src: (
       <svg
-        width="96"
-        height="58"
+        className="h-[34.8px] w-[57.6px] lg:h-[58px] lg:w-[96px]"
         viewBox="0 0 96 58"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -153,8 +148,7 @@ export const TECH_STACKS = [
     name: 'MySQL',
     src: (
       <svg
-        width="111"
-        height="75"
+        className="h-[45px] w-[66.6px] lg:h-[75px] lg:w-[111px]"
         viewBox="0 0 111 75"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -210,8 +204,7 @@ export const TECH_STACKS = [
     name: 'PostgreSQL',
     src: (
       <svg
-        width="74"
-        height="75"
+        className="h-[45px] w-[45px] lg:h-[75px] lg:w-[75px]"
         viewBox="0 0 74 75"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -245,8 +238,7 @@ export const TECH_STACKS = [
     name: 'Typescript',
     src: (
       <svg
-        width="75"
-        height="75"
+        className="h-[45px] w-[45px] lg:h-[75px] lg:w-[75px]"
         viewBox="0 0 75 75"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">

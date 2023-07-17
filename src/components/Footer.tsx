@@ -4,7 +4,7 @@ import { NAVLINKS, SOCIALS } from '@/constant';
 
 const Footer = () => {
   return (
-    <footer className="mt-10 flex justify-between bg-primary p-10 [&>*]:text-highlight">
+    <footer className="mt-10 flex flex-wrap justify-between bg-primary p-10 [&>*]:text-highlight">
       <div className="flex flex-col gap-3">
         {NAVLINKS.map((i) => {
           return (

@@ -21,7 +21,7 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <div className="flex flex-1">
+      <div className="flex flex-1 flex-col gap-3 lg:flex-row">
         <div className="w-full flex-[.4] space-y-14">
           <h3 className="leading-normal">
             Let&apos;s

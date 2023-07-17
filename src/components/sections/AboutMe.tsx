@@ -31,7 +31,7 @@ const AboutMe = () => {
           dignissimos beatae facilis recusandae.
         </p>
         <h3 className="col-span-4  row-start-3">Tech Stack</h3>
-        <div className="col-span-9 col-start-2 row-start-4  flex flex-wrap items-center justify-around gap-5">
+        <div className="col-span-9 col-start-2 row-start-4  flex flex-wrap items-center justify-around gap-3 lg:gap-5">
           {
             // render svg from props
             TECH_STACKS.map((i) => {
