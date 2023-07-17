@@ -1,27 +1,66 @@
+'use client';
+
 import Link from 'next/link';
-import React, { FC } from 'react';
+import { FC, useState } from 'react';
 
 import { NAVLINKS } from '@/constant';
 
 import { NavLinksType } from '@/types/props';
 
 const NavBar = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav>
-      <p className="heading text-xl font-bold">JDPeña</p>
-      <div className="flex items-center gap-x-5">
-        {NAVLINKS.map((i) => {
-          return (
-            <NavLinks
-              key={i.name}
-              url={i.url}
-              description={i.description}
-              name={i.name}
-            />
-          );
-        })}
-      </div>
-    </nav>
+    <>
+      <nav>
+        <p className="heading text-xl font-bold">JDPeña</p>
+        {/* Desktop Link */}
+        <div className="hidden items-center gap-x-5 lg:flex">
+          {NAVLINKS.map((i) => {
+            return (
+              <NavLinks
+                key={i.name}
+                url={i.url}
+                description={i.description}
+                name={i.name}
+              />
+            );
+          })}
+        </div>
+        {/* Mobile Link */}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className={`z-50 block h-6 w-6 cursor-pointer lg:hidden ${
+            isOpen ? 'fill-highlight' : 'fill-primary'
+          }`}
+          onClick={() => setIsOpen(!isOpen)}>
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </nav>
+      {isOpen && (
+        <div
+          className="fixed right-0 top-0 z-40 mt-20 flex h-screen w-1/3 flex-col items-center gap-3 bg-primary pt-8"
+          onBlur={() => setIsOpen(false)}>
+          {NAVLINKS.map((i) => {
+            return (
+              <Link
+                className="font-canela text-highlight"
+                key={i.url}
+                href={i.url}>
+                {i.name}
+              </Link>
+            );
+          })}
+        </div>
+      )}
+    </>
   );
 };
 

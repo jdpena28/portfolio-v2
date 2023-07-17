@@ -7,25 +7,25 @@
 }
 
 h1 {
-  @apply heading text-7xl;
+  @apply heading text-5xl lg:text-7xl;
 }
 h2 {
-  @apply heading text-6xl;
+  @apply heading text-4xl lg:text-6xl;
 }
 h3 {
-  @apply heading text-5xl;
+  @apply heading text-3xl lg:text-5xl;
 }
 h4 {
-  @apply subheading text-4xl;
+  @apply subheading text-xl lg:text-4xl;
 }
 h5 {
-  @apply subheading text-3xl;
+  @apply subheading text-lg lg:text-3xl;
 }
 h6 {
-  @apply subheading text-2xl;
+  @apply subheading text-base lg:text-2xl;
 }
 nav {
-  @apply sticky top-0 z-50 flex items-center justify-between bg-highlight p-8;
+  @apply sticky top-0 z-30 flex items-center justify-between bg-highlight p-8;
 }
 section {
   @apply relative flex min-h-screen w-full items-center;
