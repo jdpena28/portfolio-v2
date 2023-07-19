@@ -1,14 +1,17 @@
 'use client';
 
 import Link from 'next/link';
-import { FC, useState } from 'react';
+import { FC, useState, useRef } from 'react';
+import { useOnClickOutside } from 'usehooks-ts';
 
 import { NAVLINKS } from '@/constant';
 
 import { NavLinksType } from '@/types/props';
 
 const NavBar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  useOnClickOutside(ref, () => setIsOpen(false));
   return (
     <>
       <nav>
@@ -46,8 +49,8 @@ const NavBar = () => {
       </nav>
       {isOpen && (
         <div
-          className="fixed right-0 top-0 z-40 mt-20 flex h-screen w-1/3 flex-col items-center gap-3 bg-primary pt-8"
-          onBlur={() => setIsOpen(false)}>
+          ref={ref}
+          className="fixed right-0 top-0 z-40 mt-20 flex h-screen w-1/3 flex-col items-center gap-3 bg-primary pt-8">
           {NAVLINKS.map((i) => {
             return (
               <Link

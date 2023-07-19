@@ -25,7 +25,7 @@ h6 {
   @apply subheading text-base lg:text-2xl;
 }
 nav {
-  @apply sticky top-0 z-30 flex items-center justify-between bg-highlight p-8;
+  @apply sticky top-0 z-50 flex items-center justify-between bg-highlight p-8;
 }
 section {
   @apply relative flex min-h-screen w-full items-center;
