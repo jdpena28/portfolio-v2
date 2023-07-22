@@ -35,7 +35,7 @@ const Page = async ({ params }: Props) => {
   const { slug } = params;
   const project: ProjectType = await getProject(slug);
   return (
-    <section className="container mx-auto px-5" id={slug}>
+    <section className="container mx-auto !items-start px-5" id={slug}>
       <div className="w-full space-y-3">
         <Image
           className="mx-auto"
@@ -45,7 +45,7 @@ const Page = async ({ params }: Props) => {
           width={1920}
         />
         <h5 className="heading text-4xl font-medium">{project.name}</h5>
-        <div className="flex gap-3">
+        <div className="flex flex-wrap gap-3">
           {project.techStacks.map((i) => {
             return (
               <span
