@@ -17,7 +17,7 @@ const Page = ({ params: { slug } }: { params: { slug: string } }) => {
           height={1080}
         />
         <h5 className="heading font-medium">{data.name}</h5>
-        <div className="flex gap-3">
+        <div className="flex flex-wrap gap-3">
           {data.techStacks.map((i) => {
             return (
               <span

@@ -7,7 +7,7 @@ import { TECH_STACKS } from '@/constant';
 const AboutMe = () => {
   return (
     <section id="about">
-      <div className="gap-14 space-y-14 lg:grid lg:grid-cols-12 lg:space-y-0">
+      <div className="gap-14 space-y-5 lg:grid lg:grid-cols-12 lg:space-y-14">
         <div className="w-max space-y-3">
           <div className="h-[3px] w-1/2 bg-primary" />
           <h3 className="text-left">
@@ -31,7 +31,7 @@ const AboutMe = () => {
           dignissimos beatae facilis recusandae.
         </p>
         <h3 className="col-span-4  row-start-3">Tech Stack</h3>
-        <div className="col-span-9 col-start-2 row-start-4  flex flex-wrap items-center justify-around gap-5">
+        <div className="col-span-9 col-start-2 row-start-4 flex flex-wrap items-center justify-around gap-6 lg:gap-5">
           {
             // render svg from props
             TECH_STACKS.map((i) => {

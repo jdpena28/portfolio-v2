@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Home = () => {
   return (
     <section id="home">
-      <div className="flex w-full items-center justify-around">
+      <div className="w-full items-center justify-around lg:flex">
         <div className="space-y-5">
           <h2 className="font-canela text-lg font-medium">
             A Full Stack Developer
@@ -43,7 +43,7 @@ const Home = () => {
         </div>
         <div className="space-y-10">
           <Image
-            className="rounded-md"
+            className="hidden rounded-md lg:block"
             src="/profile.png"
             alt="Profile Photo"
             width={356}
@@ -51,7 +51,7 @@ const Home = () => {
           />
           <div>
             <Link href="#projects">
-              <p className="text-right">
+              <p className="lg:text-right">
                 Want to see my projects?{' '}
                 <svg
                   className="bounce-left-animate ml-6 inline-block"
