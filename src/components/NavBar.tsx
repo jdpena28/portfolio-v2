@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { FC, useState, useRef } from 'react';
 import { useOnClickOutside } from 'usehooks-ts';
+import { motion, AnimatePresence, Variants } from 'framer-motion';
 
 import { NAVLINKS } from '@/constant';
 
@@ -12,6 +13,35 @@ const NavBar = () => {
   const ref = useRef<HTMLDivElement>(null);
   const [isOpen, setIsOpen] = useState<boolean>(false);
   useOnClickOutside(ref, () => setIsOpen(false));
+  const variant: Variants = {
+    initial: {
+      opacity: 0,
+      x: '100vw',
+      transition: {
+        duration: 0.5,
+        bounce: 0.6,
+        ease: 'easeInOut',
+      },
+    },
+    open: {
+      opacity: 1,
+      x: 0,
+      transition: {
+        duration: 0.5,
+        bounce: 0.6,
+        ease: 'easeInOut',
+        when: 'beforeChildren',
+      },
+    },
+    exit: {
+      opacity: 0,
+      x: '100vw',
+      transition: {
+        duration: 0.5,
+        ease: 'easeInOut',
+      },
+    },
+  };
   return (
     <>
       <nav>
@@ -47,22 +77,28 @@ const NavBar = () => {
           />
         </svg>
       </nav>
-      {isOpen && (
-        <div
-          ref={ref}
-          className="fixed right-0 top-0 z-40 mt-20 flex h-screen w-1/3 flex-col items-center gap-3 bg-primary pt-8">
-          {NAVLINKS.map((i) => {
-            return (
-              <Link
-                className="font-canela text-highlight"
-                key={i.url}
-                href={i.url}>
-                {i.name}
-              </Link>
-            );
-          })}
-        </div>
-      )}
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            variants={variant}
+            initial="initial"
+            animate="open"
+            exit="exit"
+            ref={ref}
+            className="fixed right-0 top-0 z-40 mt-20 flex h-screen w-1/3 flex-col items-center gap-3 bg-primary pt-8">
+            {NAVLINKS.map((i) => {
+              return (
+                <Link
+                  className="font-canela text-highlight"
+                  key={i.url}
+                  href={i.url}>
+                  {i.name}
+                </Link>
+              );
+            })}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </>
   );
 };
