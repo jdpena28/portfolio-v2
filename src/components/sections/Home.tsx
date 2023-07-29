@@ -19,7 +19,7 @@ const Home = () => {
             exercitationem, iste, cupiditate incidunt nemo.
           </p>
           <Link
-            href="#contacts"
+            href="#contact"
             className="relative flex w-max items-center justify-center">
             <svg
               width="221"
