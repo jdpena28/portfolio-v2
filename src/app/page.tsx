@@ -5,7 +5,7 @@ import Projects from '@/components/sections/Projects';
 
 export default function Index() {
   return (
-    <main className="container mx-auto w-full overflow-hidden px-5 lg:overflow-visible">
+    <main className="mx-auto w-full px-5">
       <Home />
       <AboutMe />
       <Projects />

@@ -8,7 +8,9 @@ html {
 * {
   @apply text-primary;
 }
-
+body {
+  @apply overflow-x-hidden;
+}
 h1 {
   @apply heading text-5xl lg:text-7xl;
 }
@@ -31,7 +33,7 @@ nav {
   @apply sticky top-0 z-50 flex items-center justify-between bg-highlight p-8;
 }
 section {
-  @apply relative flex min-h-screen w-full items-center;
+  @apply container relative z-20 mx-auto flex min-h-screen w-full items-center;
 }
 p {
   @apply font-canela font-light;
