@@ -14,10 +14,10 @@ const Home = () => {
               John Henrich <br /> Dela Pena
             </h1>
             <p className="max-w-lg">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Recusandae nesciunt animi quibusdam veritatis aliquid. Ad tenetur
-              quo voluptate ab minus aspernatur culpa voluptas autem obcaecati
-              maxime fuga exercitationem, iste, cupiditate incidunt nemo.
+              Over a year experience in Full Stack Javascript Application mainly
+              focus on web and mobile application. Lean with working on Next.js
+              Framework. React.js Typescript Enthusiast. Keeping up with the
+              latest emerging technology.
             </p>
             <Link
               href="#contact"
