@@ -271,7 +271,7 @@ export const PROJECTS = [
       'Prisma',
       'Planetscale',
     ],
-    thumbnail: '/sample-project-thumbnail.png',
+    thumbnail: '/projects/i-habilin.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
@@ -280,16 +280,7 @@ export const PROJECTS = [
     name: 'Space Tourism',
     slug: 'space-tourism',
     techStacks: ['Next.js', 'TailwindCSS', 'Typescript'],
-    thumbnail: '/sample-project-thumbnail.png',
-    landscapeThumbnail: '/landscape-thumbnail.jpg',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
-  },
-  {
-    name: 'Bataan Travel Pass',
-    slug: 'bataan-travel-pass',
-    techStacks: ['Nuxt', 'Vue.js', 'TailwindCSS', 'Typescript', 'Firebase'],
-    thumbnail: '/sample-project-thumbnail.png',
+    thumbnail: '/projects/space-tourism.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
@@ -298,6 +289,15 @@ export const PROJECTS = [
     name: 'COVID-19 Info Board',
     slug: 'covid-info-board',
     techStacks: ['React.js', 'Vite', 'TailwindCSS', 'Typescript'],
+    thumbnail: '/projects/covid-19-infoboard.png',
+    landscapeThumbnail: '/landscape-thumbnail.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
+  },
+  {
+    name: 'Bataan Travel Pass',
+    slug: 'bataan-travel-pass',
+    techStacks: ['Nuxt', 'Vue.js', 'TailwindCSS', 'Typescript', 'Firebase'],
     thumbnail: '/sample-project-thumbnail.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
