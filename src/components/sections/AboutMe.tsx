@@ -18,18 +18,22 @@ const AboutMe = () => {
             </h3>
           </div>
           <p className="col-span-8 col-start-4 row-start-2 w-full max-w-xl text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga porro
-            fugit consequatur atque blanditiis omnis recusandae possimus libero
-            consectetur vitae excepturi quod vero deserunt dolore, doloremque ab
-            voluptas voluptatem consequuntur doloribus sint laudantium, non
-            eligendi et eos. Accusamus porro debitis id maxime necessitatibus
-            veniam consequuntur provident tempore voluptas cum odit hic deleniti
-            quos animi facilis dolore perferendis, eius voluptatum beatae
-            repellendus ratione obcaecati? Fugiat aperiam aspernatur consectetur
-            quis nulla ab eum deleniti sint inventore aliquam explicabo eveniet
-            ipsa quibusdam nesciunt, aut ad harum consequatur, beatae dolor
-            pariatur est. Distinctio assumenda id maiores iure doloribus
-            nostrum, dignissimos beatae facilis recusandae.
+            I take Technical Vocational Strand on my Senior High School days at{' '}
+            <a
+              className="external-link"
+              href="https://heroes1979.edu.ph/about-us/">
+              Bataan Heroes College
+            </a>{' '}
+            with specialization in Computer Programming. I am graduand of{' '}
+            <a className="external-link" href="https://www.bpsu.edu.ph/">
+              Bataan Peninsula State University
+            </a>{' '}
+            with a degree of Bachelor of Science in Computer Science major in
+            Network and Data Communication. I am a self-taught developer with
+            over a year experience in development and design. Mainly focus on
+            javascript application. Eager to learn new technologies and skills.
+            Currently learning .Net and Rust programming for more expanded
+            knowledge.
           </p>
           <h3 className="col-span-4  row-start-3">Tech Stack</h3>
           <div className="col-span-9 col-start-2 row-start-4 flex flex-wrap items-center justify-around gap-6 lg:gap-5">

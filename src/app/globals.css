@@ -38,6 +38,7 @@ section {
 p {
   @apply font-canela font-light;
 }
+
 input,
 textarea {
   @apply appearance-none px-1 font-canela font-light focus:outline-none focus:ring-primary;
@@ -65,7 +66,9 @@ textarea {
 .bounce-left-animate {
   @apply animate-[bounce-left_4s_ease-in-out_infinite]  drop-shadow-md;
 }
-
+.external-link {
+  @apply font-canela font-light underline underline-offset-2 hover:text-tertiary active:text-tertiary;
+}
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
