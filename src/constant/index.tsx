@@ -2,22 +2,22 @@ export const NAVLINKS = [
   {
     name: 'Home',
     url: '/#home',
-    description: 'Lorem ipsum dolor sit amet, consectetur',
+    description: 'Where dreams take flight, and hearts find solace',
   },
   {
     name: 'About',
     url: '/#about',
-    description: 'Lorem ipsum dolor sit amet, consectetur',
+    description: 'Discover the story behind boundless ambition.',
   },
   {
     name: 'Projects',
     url: '/#projects',
-    description: 'Lorem ipsum dolor sit amet, consectetur',
+    description: 'Innovation in every step, creating tomorrows world.',
   },
   {
     name: 'Contact',
     url: '/#contact',
-    description: 'Lorem ipsum dolor sit amet, consectetur',
+    description: 'Reach out and connect, let moments unfold.',
   },
 ];
 

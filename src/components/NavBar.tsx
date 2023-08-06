@@ -47,7 +47,7 @@ const NavBar = () => {
       <nav>
         <p className="heading text-xl font-bold">JDPeña</p>
         {/* Desktop Link */}
-        <div className="hidden items-center gap-x-5 lg:flex">
+        <div className="hidden items-start gap-x-5 lg:flex">
           {NAVLINKS.map((i) => {
             return (
               <NavLinks
