@@ -85,7 +85,7 @@ const NavBar = () => {
             animate="open"
             exit="exit"
             ref={ref}
-            className="fixed right-0 top-0 z-40 mt-20 flex h-screen w-1/3 flex-col items-center gap-3 bg-primary pt-8">
+            className="fixed right-0 top-0 z-40 mt-20 flex h-screen w-1/3 flex-col items-center gap-3 bg-primary pt-8 lg:hidden">
             {NAVLINKS.map((i) => {
               return (
                 <Link
