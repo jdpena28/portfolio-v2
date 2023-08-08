@@ -298,7 +298,7 @@ export const PROJECTS = [
     name: 'Bataan Travel Pass',
     slug: 'bataan-travel-pass',
     techStacks: ['Nuxt', 'Vue.js', 'TailwindCSS', 'Typescript', 'Firebase'],
-    thumbnail: '/sample-project-thumbnail.png',
+    thumbnail: '/projects/bataan-travel-pass.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
@@ -307,7 +307,7 @@ export const PROJECTS = [
     name: 'Sticky Note',
     slug: 'sticky-note',
     techStacks: ['React.js', 'Vite', 'TailwindCSS', 'Typescript'],
-    thumbnail: '/sample-project-thumbnail.png',
+    thumbnail: '/projects/sticky-note.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
