@@ -7,9 +7,23 @@ import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Portfolio | John Henrich Dela Pena',
+  title: 'Portfolio | John Henrich Dela Peña',
   description:
-    'Full stack developer with several months experience in Full Stack Javascript Application mainly focus on web and mobile application. Lean with working on Next.js Framework. React.js Typescript Enthusiast. Keeping up with the latest emerging technology.',
+    'Over a year experience in Full Stack Javascript Application mainly focus on web and mobile application. Lean with working on Next.js Framework. React.js Typescript Enthusiast. Keeping up with the latest emerging technology.',
+  openGraph: {
+    title: 'Portfolio | John Henrich Dela Peña',
+    description:
+      'Over a year experience in Full Stack Javascript Application mainly focus on web and mobile application. Lean with working on Next.js Framework. React.js Typescript Enthusiast. Keeping up with the latest emerging technology.',
+    url: 'https://www.jdpena.tech/',
+    siteName: 'John Henrich Dela Peña',
+    images: [
+      {
+        url: '/thumbnail.png',
+        width: 1440,
+        height: 1020,
+      },
+    ],
+  },
 };
 
 const apercu = localFont({

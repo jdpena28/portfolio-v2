@@ -2,7 +2,7 @@ export const NAVLINKS = [
   {
     name: 'Home',
     url: '/#home',
-    description: 'Where dreams take flight, and hearts find solace',
+    description: 'Where dreams take flight, and hearts find solace.',
   },
   {
     name: 'About',
