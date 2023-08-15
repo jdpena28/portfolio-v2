@@ -13,13 +13,13 @@ const Home = () => {
             John Henrich <br /> Dela Pena
           </h1>
           <p className="max-w-lg">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
-            nesciunt animi quibusdam veritatis aliquid. Ad tenetur quo voluptate
-            ab minus aspernatur culpa voluptas autem obcaecati maxime fuga
-            exercitationem, iste, cupiditate incidunt nemo.
+            Over a year experience in Full Stack Javascript Application mainly
+            focus on web and mobile application. Lean with working on Next.js
+            Framework. React.js Typescript Enthusiast. Keeping up with the
+            latest emerging technology.
           </p>
           <Link
-            href="#contacts"
+            href="#contact"
             className="relative flex w-max items-center justify-center">
             <svg
               width="221"
@@ -69,12 +69,6 @@ const Home = () => {
             </Link>
           </div>
         </div>
-      </div>
-      {/* Backdrop */}
-      <div className="absolute -left-1/3 bottom-0 top-0 my-auto h-max">
-        <div className="float-animate h-96 w-96 rounded-full border-4 border-blue-500 bg-[#2548FF66]/50 blur-md" />
-        <div className="float-animate2 -mt-48 h-96 w-96 rounded-full border-4 border-red-500 bg-[#FF2E0066]/50 blur-md" />
-        <div />
       </div>
     </section>
   );

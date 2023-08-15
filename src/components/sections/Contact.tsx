@@ -76,12 +76,6 @@ const Contact = () => {
           </button>
         </form>
       </div>
-      {/* Backdrop */}
-      <div className="absolute -right-1/4 bottom-0 top-0 my-auto h-max rotate-12">
-        <div className="float-animate h-[400px] w-[400px] rounded-full border-4 border-blue-500 bg-[#2548FF66]/50 blur-md" />
-        <div className="float-animate2 -mt-48 h-[400px] w-[400px] rounded-full border-4 border-red-500 bg-[#FF2E0066]/50 blur-md" />
-        <div />
-      </div>
     </section>
   );
 };

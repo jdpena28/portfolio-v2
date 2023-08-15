@@ -8,7 +8,9 @@ html {
 * {
   @apply text-primary;
 }
-
+body {
+  @apply relative overflow-x-hidden;
+}
 h1 {
   @apply heading text-5xl lg:text-7xl;
 }
@@ -31,11 +33,12 @@ nav {
   @apply sticky top-0 z-50 flex items-center justify-between bg-highlight p-8;
 }
 section {
-  @apply relative flex min-h-screen w-full items-center;
+  @apply container relative z-20 mx-auto flex min-h-screen w-full items-center;
 }
 p {
   @apply font-canela font-light;
 }
+
 input,
 textarea {
   @apply appearance-none px-1 font-canela font-light focus:outline-none focus:ring-primary;
@@ -63,7 +66,9 @@ textarea {
 .bounce-left-animate {
   @apply animate-[bounce-left_4s_ease-in-out_infinite]  drop-shadow-md;
 }
-
+.external-link {
+  @apply font-canela font-light underline underline-offset-2 hover:text-tertiary active:text-tertiary;
+}
 @keyframes gradient {
   0% {
     background-position: 0% 50%;

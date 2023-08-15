@@ -2,22 +2,22 @@ export const NAVLINKS = [
   {
     name: 'Home',
     url: '/#home',
-    description: 'Lorem ipsum dolor sit amet, consectetur',
+    description: 'Where dreams take flight, and hearts find solace.',
   },
   {
     name: 'About',
     url: '/#about',
-    description: 'Lorem ipsum dolor sit amet, consectetur',
+    description: 'Discover the story behind boundless ambition.',
   },
   {
     name: 'Projects',
     url: '/#projects',
-    description: 'Lorem ipsum dolor sit amet, consectetur',
+    description: 'Innovation in every step, creating tomorrows world.',
   },
   {
     name: 'Contact',
     url: '/#contact',
-    description: 'Lorem ipsum dolor sit amet, consectetur',
+    description: 'Reach out and connect, let moments unfold.',
   },
 ];
 
@@ -271,7 +271,7 @@ export const PROJECTS = [
       'Prisma',
       'Planetscale',
     ],
-    thumbnail: '/sample-project-thumbnail.png',
+    thumbnail: '/projects/i-habilin.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
@@ -280,16 +280,7 @@ export const PROJECTS = [
     name: 'Space Tourism',
     slug: 'space-tourism',
     techStacks: ['Next.js', 'TailwindCSS', 'Typescript'],
-    thumbnail: '/sample-project-thumbnail.png',
-    landscapeThumbnail: '/landscape-thumbnail.jpg',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
-  },
-  {
-    name: 'Bataan Travel Pass',
-    slug: 'bataan-travel-pass',
-    techStacks: ['Nuxt', 'Vue.js', 'TailwindCSS', 'Typescript', 'Firebase'],
-    thumbnail: '/sample-project-thumbnail.png',
+    thumbnail: '/projects/space-tourism.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
@@ -298,7 +289,16 @@ export const PROJECTS = [
     name: 'COVID-19 Info Board',
     slug: 'covid-info-board',
     techStacks: ['React.js', 'Vite', 'TailwindCSS', 'Typescript'],
-    thumbnail: '/sample-project-thumbnail.png',
+    thumbnail: '/projects/covid-19-infoboard.png',
+    landscapeThumbnail: '/landscape-thumbnail.jpg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
+  },
+  {
+    name: 'Bataan Travel Pass',
+    slug: 'bataan-travel-pass',
+    techStacks: ['Nuxt', 'Vue.js', 'TailwindCSS', 'Typescript', 'Firebase'],
+    thumbnail: '/projects/bataan-travel-pass.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
@@ -307,7 +307,7 @@ export const PROJECTS = [
     name: 'Sticky Note',
     slug: 'sticky-note',
     techStacks: ['React.js', 'Vite', 'TailwindCSS', 'Typescript'],
-    thumbnail: '/sample-project-thumbnail.png',
+    thumbnail: '/projects/sticky-note.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
