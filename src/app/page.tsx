@@ -6,7 +6,7 @@ import BGParticles from '@/components/Particles';
 
 export default function Index() {
   return (
-    <main className="relative w-full px-5">
+    <main className="relative w-full space-y-5 px-5">
       <Home />
       <AboutMe />
       <Projects />
