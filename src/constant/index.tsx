@@ -274,7 +274,7 @@ export const PROJECTS = [
     thumbnail: '/projects/i-habilin.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
+      'A College Thesis Project, web application that revolutionize the ordering system for Food Park it has multi stall support in ordering food powered also by AI (GPT - 3) to suggest food that fits on your needs for today.',
   },
   {
     name: 'Space Tourism',
@@ -283,7 +283,7 @@ export const PROJECTS = [
     thumbnail: '/projects/space-tourism.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
+      'Front end practice training from Frontend Mentor, it is a multi page website that showcase a space tourism company with responsive design for Computer, Pad / Tablet and Mobile Phone.',
   },
   {
     name: 'COVID-19 Info Board',
@@ -292,7 +292,7 @@ export const PROJECTS = [
     thumbnail: '/projects/covid-19-infoboard.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
+      'A web application and API practice that monitors the COVID-19 cases in the Philippines, It has a sparkline statistic for the whole month that show the total cases each day.',
   },
   {
     name: 'Bataan Travel Pass',
@@ -301,7 +301,7 @@ export const PROJECTS = [
     thumbnail: '/projects/bataan-travel-pass.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
+      'School requirements for the subject Web Application Development, full stack application for monitoring travel logs of the people going in Bataan during pandemic.',
   },
   {
     name: 'Sticky Note',
@@ -310,7 +310,7 @@ export const PROJECTS = [
     thumbnail: '/projects/sticky-note.png',
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus optio nam est eius et dolorem enim dolore! Ab debitis explicabo at incidunt voluptates non vitae exercitationem in, minus, optio et aperiam esse.',
+      'Simple Todo list nothing fancy just to practice CRUD operations in React.js',
   },
 ];
 
