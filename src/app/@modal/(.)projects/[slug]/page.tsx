@@ -22,7 +22,7 @@ const Page = ({ params: { slug } }: { params: { slug: string } }) => {
             return (
               <span
                 key={i}
-                className="rounded-full bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900 px-4 py-2 font-apercu text-sm font-semibold text-red-100">
+                className="rounded-full bg-gradient-to-l from-gray-700 via-gray-900 to-black px-4 py-2 font-apercu text-sm font-semibold text-red-100">
                 {i}
               </span>
             );
