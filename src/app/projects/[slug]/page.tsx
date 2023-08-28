@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 import { BASE_URL } from '@/constant';
 import { ProjectType } from '@/types/props';
+import Analytics from '@/components/Analytics';
 
 const getProject = async (slug: string) => {
   const data = await fetch(`${BASE_URL}/api/projects?slug=${slug}`, {
@@ -58,6 +59,7 @@ const Page = async ({ params }: Props) => {
         </div>
         <p>{project.description}</p>
       </div>
+      <Analytics />
     </section>
   );
 };

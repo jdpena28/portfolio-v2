@@ -3,6 +3,7 @@ import Contact from '@/components/sections/Contact';
 import Home from '@/components/sections/Home';
 import Projects from '@/components/sections/Projects';
 import BGParticles from '@/components/Particles';
+import Analytics from '@/components/Analytics';
 
 export default function Index() {
   return (
@@ -12,6 +13,7 @@ export default function Index() {
       <Projects />
       <Contact />
       <BGParticles />
+      <Analytics />
     </main>
   );
 }
