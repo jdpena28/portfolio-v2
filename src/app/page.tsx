@@ -1,8 +1,11 @@
+import { Toaster } from 'react-hot-toast';
+
 import AboutMe from '@/components/sections/AboutMe';
 import Contact from '@/components/sections/Contact';
 import Home from '@/components/sections/Home';
 import Projects from '@/components/sections/Projects';
 import BGParticles from '@/components/Particles';
+import Analytics from '@/components/Analytics';
 
 export default function Index() {
   return (
@@ -12,6 +15,13 @@ export default function Index() {
       <Projects />
       <Contact />
       <BGParticles />
+      <Analytics />
+      <Toaster
+        position="top-center"
+        toastOptions={{
+          duration: 3000,
+        }}
+      />
     </main>
   );
 }

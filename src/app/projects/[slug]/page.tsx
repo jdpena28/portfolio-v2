@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 import { BASE_URL } from '@/constant';
 import { ProjectType } from '@/types/props';
+import Analytics from '@/components/Analytics';
 
 const getProject = async (slug: string) => {
   const data = await fetch(`${BASE_URL}/api/projects?slug=${slug}`, {
@@ -24,9 +25,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: data.name,
-    metadataBase: new URL(`/projects/${slug}`, BASE_URL),
+    description: data.description,
+    metadataBase: new URL(BASE_URL),
     openGraph: {
-      images: [data.thumbnail],
+      images: [
+        {
+          url: data.thumbnail,
+          width: 1440,
+          height: 1020,
+        },
+      ],
     },
   };
 }
@@ -58,6 +66,7 @@ const Page = async ({ params }: Props) => {
         </div>
         <p>{project.description}</p>
       </div>
+      <Analytics />
     </section>
   );
 };
