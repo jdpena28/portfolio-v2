@@ -7,6 +7,8 @@ export const ContactSchema = zod.object({
     .string()
     .min(1, 'Message is required')
     .max(500, 'Message is too long'),
+  timestamp: zod.date().optional(),
+  markAsRead: zod.boolean().default(false),
 });
 
 export type ContactSchemaType = zod.infer<typeof ContactSchema>;

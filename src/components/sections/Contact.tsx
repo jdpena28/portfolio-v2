@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { ContactSchema, ContactSchemaType } from '@/schema';
+import { createClientMessage } from '@/helpers';
 import { Input } from '../form';
 
 const Contact = () => {
@@ -11,12 +12,13 @@ const Contact = () => {
     register,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm<ContactSchemaType>({
     resolver: zodResolver(ContactSchema),
   });
 
   const submitInquiries = (data: ContactSchemaType) => {
-    alert(JSON.stringify(data));
+    createClientMessage(data, reset);
   };
 
   return (
