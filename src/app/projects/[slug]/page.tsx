@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       images: [
         {
-          url: data.thumbnail,
+          url: data.landscapeThumbnail,
           width: 1440,
           height: 1020,
         },
@@ -43,7 +43,7 @@ const Page = async ({ params }: Props) => {
   const { slug } = params;
   const project: ProjectType = await getProject(slug);
   return (
-    <section className="container mx-auto !items-start px-5" id={slug}>
+    <section className="container mx-auto max-w-5xl !items-start" id={slug}>
       <div className="w-full space-y-3">
         <Image
           className="mx-auto"

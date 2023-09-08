@@ -10,7 +10,7 @@ const Page = ({ params: { slug } }: { params: { slug: string } }) => {
     return (
       <Modal>
         <Image
-          className="mx-auto"
+          className="mx-auto rounded-md"
           src={data.landscapeThumbnail}
           alt={data.name}
           width={1920}

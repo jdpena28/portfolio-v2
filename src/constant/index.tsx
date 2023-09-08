@@ -290,7 +290,7 @@ export const PROJECTS = [
     slug: 'covid-info-board',
     techStacks: ['React.js', 'Vite', 'TailwindCSS', 'Typescript'],
     thumbnail: '/projects/covid-19-infoboard.png',
-    landscapeThumbnail: '/landscape-thumbnail.jpg',
+    landscapeThumbnail: '/projects/Covid_Infoboard.webp',
     description:
       'A web application and API practice that monitors the COVID-19 cases in the Philippines, It has a sparkline statistic for the whole month that show the total cases each day.',
   },
