@@ -44,7 +44,7 @@ const Home = () => {
         <div className="space-y-10">
           <Image
             className="hidden rounded-md lg:block"
-            src="/profile.png"
+            src="/profile.jpg"
             alt="Profile Photo"
             width={356}
             height={513}

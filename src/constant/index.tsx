@@ -272,7 +272,7 @@ export const PROJECTS = [
       'Planetscale',
     ],
     thumbnail: '/projects/i-habilin.png',
-    landscapeThumbnail: '/landscape-thumbnail.jpg',
+    landscapeThumbnail: '/projects/i-habilin-thumbnail.png',
     description:
       'A College Thesis Project, web application that revolutionize the ordering system for Food Park it has multi stall support in ordering food powered also by AI (GPT - 3) to suggest food that fits on your needs for today.',
   },
@@ -290,7 +290,7 @@ export const PROJECTS = [
     slug: 'covid-info-board',
     techStacks: ['React.js', 'Vite', 'TailwindCSS', 'Typescript'],
     thumbnail: '/projects/covid-19-infoboard.png',
-    landscapeThumbnail: '/landscape-thumbnail.jpg',
+    landscapeThumbnail: '/projects/Covid_Infoboard.webp',
     description:
       'A web application and API practice that monitors the COVID-19 cases in the Philippines, It has a sparkline statistic for the whole month that show the total cases each day.',
   },
@@ -299,7 +299,7 @@ export const PROJECTS = [
     slug: 'bataan-travel-pass',
     techStacks: ['Nuxt', 'Vue.js', 'TailwindCSS', 'Typescript', 'Firebase'],
     thumbnail: '/projects/bataan-travel-pass.png',
-    landscapeThumbnail: '/landscape-thumbnail.jpg',
+    landscapeThumbnail: '/projects/1Bataan-Travel-Pass-thumbnail.png',
     description:
       'School requirements for the subject Web Application Development, full stack application for monitoring travel logs of the people going in Bataan during pandemic.',
   },
@@ -308,7 +308,7 @@ export const PROJECTS = [
     slug: 'sticky-note',
     techStacks: ['React.js', 'Vite', 'TailwindCSS', 'Typescript'],
     thumbnail: '/projects/sticky-note.png',
-    landscapeThumbnail: '/landscape-thumbnail.jpg',
+    landscapeThumbnail: '/projects/Stick-your-Note-Desktop-thumbnail.webp',
     description:
       'Simple Todo list nothing fancy just to practice CRUD operations in React.js',
   },
