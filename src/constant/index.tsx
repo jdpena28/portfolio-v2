@@ -275,6 +275,8 @@ export const PROJECTS = [
     landscapeThumbnail: '/projects/i-habilin-thumbnail.png',
     description:
       'A College Thesis Project, web application that revolutionize the ordering system for Food Park it has multi stall support in ordering food powered also by AI (GPT - 3) to suggest food that fits on your needs for today.',
+    github: 'https://github.com/jdpena28/i-habilin-v2',
+    external: 'https://www.ihabilin.tech/',
   },
   {
     name: 'Space Tourism',
@@ -284,6 +286,8 @@ export const PROJECTS = [
     landscapeThumbnail: '/landscape-thumbnail.jpg',
     description:
       'Front end practice training from Frontend Mentor, it is a multi page website that showcase a space tourism company with responsive design for Computer, Pad / Tablet and Mobile Phone.',
+    github: 'https://github.com/jdpena28/space-tourism',
+    external: 'https://space-tourism-six.vercel.app/',
   },
   {
     name: 'COVID-19 Info Board',
@@ -293,6 +297,8 @@ export const PROJECTS = [
     landscapeThumbnail: '/projects/Covid_Infoboard.webp',
     description:
       'A web application and API practice that monitors the COVID-19 cases in the Philippines, It has a sparkline statistic for the whole month that show the total cases each day.',
+    github: 'https://github.com/jdpena28/covid19PH-infoboard',
+    external: 'https://covid19-ph-infoboard.vercel.app/',
   },
   {
     name: 'Bataan Travel Pass',
@@ -302,6 +308,8 @@ export const PROJECTS = [
     landscapeThumbnail: '/projects/1Bataan-Travel-Pass-thumbnail.png',
     description:
       'School requirements for the subject Web Application Development, full stack application for monitoring travel logs of the people going in Bataan during pandemic.',
+    github: 'https://github.com/jdpena28/travel-pass-web-based',
+    external: 'http://travel-pass-web-based.vercel.app/',
   },
   {
     name: 'Sticky Note',
@@ -311,6 +319,8 @@ export const PROJECTS = [
     landscapeThumbnail: '/projects/Stick-your-Note-Desktop-thumbnail.webp',
     description:
       'Simple Todo list nothing fancy just to practice CRUD operations in React.js',
+    github: 'https://github.com/jdpena28/stick-your-note',
+    external: 'https://stick-your-note.vercel.app/',
   },
 ];
 

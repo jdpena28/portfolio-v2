@@ -11,7 +11,7 @@ interface ProjectCardProps {
 const ProjectCard: FC<ProjectCardProps> = ({ slug, name, thumbnail }) => {
   return (
     <Link href={`/projects/${slug}`}>
-      <div className="rounded-sm bg-white p-5 shadow-lg shadow-white drop-shadow-2xl">
+      <div className="rounded-sm border-2 border-gray-200 bg-white p-5 shadow-lg shadow-white drop-shadow-2xl">
         <Image src={thumbnail} alt={name} width={354} height={439} />
         <div className="flex justify-between py-5">
           <h4 className="max-w-xs text-lg">{name}</h4>
